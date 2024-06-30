@@ -1,0 +1,49 @@
+. {
+    margin: 0;padding: 0;
+}
+nav{
+    display: flex;justify-content: space-between;
+}
+ nav ul{
+    display: flex;
+    justify-content:space-between ;
+    width:40%;
+    align-items: center; 
+}
+nav ul li{
+    list-style: none; cursor: pointer;
+}
+ul li :hover 
+{
+    color: rgb(255, 0, 21);
+}
+button{
+    background-color: black;color: white; padding: 4px; border-radius: 14px;
+}
+.one {
+    background-color: rgb(247, 247, 247);margin-left: 100px;margin-top: 50;
+}
+.one h1{
+    font-size: 90px;
+}
+.sub1 , .sub2 , .sub3 , .sub4 {
+   display: flex ;  
+   align-items: center;
+   justify-content: center;
+   
+    
+}
+.sub1 ul li , .sub2 ul li, .sub3 ul li , .sub4 ul li{
+    list-style-type: none;
+}
+.mani{
+    display: flex;justify-content: center; align-items: center;
+}
+
+    
+ .img2{
+    display: flex;
+ }
+ .img2 div img {
+    height: 75px; margin-left: 200%;
+ }
